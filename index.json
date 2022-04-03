@@ -1,6 +1,6 @@
 {
-  prompt: "What kind of plugin would you like to create?",
-  choices: [
+  "prompt": "What kind of plugin would you like to create?",
+  "choices": [
     {
       "id": "fileImporter",
       "name": "File Importer",
