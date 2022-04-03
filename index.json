@@ -1,36 +1,41 @@
 {
-  "id": "fileImporter",
-  "name": "File Importer",
-  "description": "Import a file from another service.",
-  "url": "https://github.com/steamship-plugins/file-importer-template",
-},
-{
-  "id": "corpusImporter",
-  "name": "Corpus Importer",
-  "description": "Import a corpus from another service.",
-  "url": "https://github.com/steamship-plugins/corpus-importer-template",
-},
-{
-  "id": "corpusExporter",
-  "name": "Corpus Exporter",
-  "description": "Export a corpus to another service.",
-  "url": "https://github.com/steamship-plugins/corpus-exporter-template",
-},
-{
-  "id": "blockifier",
-  "name": "Blockifier",
-  "description": "Convert a data type into Steamship's Block Format.",
-  "url": "https://github.com/steamship-plugins/blockifier-template",
-},
-{
-  "id": "embedder",
-  "name": "Embedder",
-  "description": "Embed natural language text into vectors of meaning.",
-  "url": "https://github.com/steamship-plugins/embedder-template",
-},
-{
-  "id": "tagger",
-  "name": "Tagger",
-  "description": "Tag or classify natural language text.",
-  "url": "https://github.com/steamship-plugins/tagger-template",
-},
+  prompt: "What kind of plugin would you like to create?",
+  choices: [
+    {
+      "id": "fileImporter",
+      "name": "File Importer",
+      "description": "Import a file from another service.",
+      "url": "https://github.com/steamship-plugins/file-importer-template",
+    },
+    {
+      "id": "corpusImporter",
+      "name": "Corpus Importer",
+      "description": "Import a corpus from another service.",
+      "url": "https://github.com/steamship-plugins/corpus-importer-template",
+    },
+    {
+      "id": "corpusExporter",
+      "name": "Corpus Exporter",
+      "description": "Export a corpus to another service.",
+      "url": "https://github.com/steamship-plugins/corpus-exporter-template",
+    },
+    {
+      "id": "blockifier",
+      "name": "Blockifier",
+      "description": "Convert a data type into Steamship's Block Format.",
+      "url": "https://github.com/steamship-plugins/blockifier-template",
+    },
+    {
+      "id": "embedder",
+      "name": "Embedder",
+      "description": "Embed natural language text into vectors of meaning.",
+      "url": "https://github.com/steamship-plugins/embedder-template",
+    },
+    {
+      "id": "tagger",
+      "name": "Tagger",
+      "description": "Tag or classify natural language text.",
+      "url": "https://github.com/steamship-plugins/tagger-template",
+    }
+  ]
+}
