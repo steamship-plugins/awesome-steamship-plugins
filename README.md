@@ -1,5 +1,9 @@
 # Awesome Steamship Plugins
 
+## File Importers
+
+* [Wikipedia File Importer](https://github.com/steamship-plugins/wikipedia-file-importer)
+
 ## Blockifiers
 
 * [CSV Blockifier](https://github.com/steamship-plugins/blockifier-csv)
